@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0b1622;
+    color: #fff;
+  }
+
+  div[data-slot="card"] {
+    background: #151f2e;
+    color: #fff;
+    border: 0;
+  }
+
+  .clear {
+    background-color: #0b1622;
+  }
+}
